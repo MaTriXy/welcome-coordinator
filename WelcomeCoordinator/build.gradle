@@ -54,7 +54,6 @@ dependencies {
     def libraryDependencies = globalConfiguration.libraryDependencies
     compile libraryDependencies.AndroidAnnotations
 }
-
 publish {
 //    Properties properties = new Properties()
 //    properties.load(project.rootProject.file('local.properties').newDataInputStream())
@@ -69,3 +68,4 @@ publish {
 //    bintrayUser = properties.getProperty("bintrayUser")
 //    bintrayKey = properties.getProperty("bintrayKey")
 }
+
